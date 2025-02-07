@@ -3,15 +3,178 @@
     padding: 0px;
 }
 
+
 header {
     height: 150px;
     width: 100vw;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
 }
 
 .Logo {
     height: 110px;
     width: 150px;
+}
+
+nav {
+    width: 100vw;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #2B4D9C;
+}
+
+footer {
+    width: 100vw;
+    height: 100px;
+    background-color: #2B4D9C;
+    position: fixed;
+    bottom: 0;
+}
+
+.links {
+    margin-left: 20px;
+    height: 150px;
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.link {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.welcome-text {
+    font-size: 50px;
+    color: #00A19A;
+    height: 300px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    border-radius: 360px;
+    border-style: solid;
+    border-color: #2B4D9C;
+    border-width: 2px;
+}
+
+main {
+    width: 100vw;
+    height: 60vh;
+    
+}
+
+.portret {
+    height: 600px;
+    width: 300px;
+    background-color: aqua;
+}
+
+.text-box {
+    height: 150px;
+    width: 300px;
+    background-color: gray;
+}
+
+.about-block {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 120px;
+    margin-top: 70px;
+}
+
+.spacing {
+    height: 180px;
+    width: 100vw;
+}
+
+.ytlogo {
+    width: 80px;
+}
+
+.yt {
+    margin-top: 10px;
+    margin-right: -5px;
+}
+
+.tik {
+    width: 75px;
+    margin-left: 5px;
+}
+
+.contact-block {
+    background-color: #2B4D9C;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ffffff;
+    height: 150px;
+    width: 600px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-media {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.x {
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.logo-link {
+    height: 250px;
+    width: 500px;
+    border-radius: 20px;
+    margin-top: 25px;
+}
+
+.decay {
+    display: flex;
+    flex-direction: column;
+}
+
+.open {
+    width: 100vw;
+    height: 100px;
+}
+
+.text {
+    color: #2B4D9C;
+}
+
+.marg {
+    margin-top: 10px;
+}
+
+.txtbackground {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #ffffff;
+    width: 500px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+}
+
+body {
+    font-family: 'Itim';
 }
