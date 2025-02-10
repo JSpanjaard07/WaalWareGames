@@ -9,6 +9,10 @@ header {
     width: 100vw;
 }
 
+body {
+    font-family: 'Itim';
+}
+
 .Logo {
     height: 110px;
     width: 150px;
@@ -55,11 +59,25 @@ footer {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #ffffff;
-    border-radius: 360px;
+    border-radius: 20px;
     border-style: solid;
     border-color: #2B4D9C;
     border-width: 2px;
+    background: url("images/Groep.jpg") no-repeat fixed;
+}
+
+.welcome-img {
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    z-index: 0;
+}
+
+.w-text {
+    font-size: 50px;
+    color: #00A19A;
+    z-index: 1;
+    margin-bottom: 20px;
 }
 
 main {
@@ -71,7 +89,7 @@ main {
 .portret {
     height: 600px;
     width: 300px;
-    background-color: aqua;
+    border-radius: 10px;
 }
 
 .text-box {
