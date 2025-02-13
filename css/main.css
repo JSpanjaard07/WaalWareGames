@@ -3,6 +3,11 @@
     padding: 0px;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 
 header {
     height: 150px;
@@ -60,24 +65,22 @@ footer {
     align-items: center;
     justify-content: center;
     border-radius: 20px;
-    border-style: solid;
-    border-color: #2B4D9C;
-    border-width: 2px;
     background: url("images/Groep.jpg") no-repeat fixed;
+    margin-bottom: 120px;
 }
 
 .welcome-img {
     height: 100%;
     width: 100%;
     border-radius: 20px;
-    z-index: 0;
+    z-index: 0px;
 }
 
 .w-text {
     font-size: 50px;
     color: #00A19A;
-    z-index: 1;
-    margin-bottom: 20px;
+    z-index: 1px;
+    margin-top: -130px;
 }
 
 main {
@@ -94,8 +97,19 @@ main {
 
 .text-box {
     height: 150px;
-    width: 300px;
+    width: 260px;
     background-color: gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-style: solid;
+    border-color: #000000;
+    border-width: 2px;
+    border-radius: 10px;
+}
+
+.margin {
+    margin-bottom: 40px;
 }
 
 .about-block {
